@@ -12,7 +12,7 @@ public class GithubtestApplication {
         // 세번째 주석추가함 
         SpringApplication.run(GithubtestApplication.class, args);
         System.out.println("GithubtestApplication  main");
-        System.out.println("GithubtestApplication  branch1");
+        System.out.println("GithubtestApplication  branch2");
     }
 
 }
