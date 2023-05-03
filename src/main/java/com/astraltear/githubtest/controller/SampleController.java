@@ -26,6 +26,14 @@ public class SampleController {
 
 
         return ResponseEntity.ok()
-                .body(sampleService.testService());
+                .body("addDevBranch");
+    }
+
+    @GetMapping("/addMasterBranch")
+    public HttpEntity<String> addMasterBranch() {
+
+
+        return ResponseEntity.ok()
+                .body("addMasterBranch");
     }
 }
