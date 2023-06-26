@@ -20,4 +20,10 @@ public class DevController {
         return ResponseEntity.ok()
                 .body("devmasteradd");
     }
+
+    @GetMapping("/dev/devadd")
+    public HttpEntity<String> devadd() {
+        return ResponseEntity.ok()
+                .body("devmasteradd");
+    }
 }
