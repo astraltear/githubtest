@@ -16,7 +16,7 @@ public class DevController {
 
     @GetMapping("/conflictTest")
     public HttpEntity<String> conflictTest() {
-        return ResponseEntity.ok().body("conflictTest-EDIT_MASTER");
+        return ResponseEntity.ok().body("conflictTest-EDIT_DEV");
     }
 
 
