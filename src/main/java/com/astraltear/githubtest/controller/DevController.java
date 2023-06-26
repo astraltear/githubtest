@@ -14,7 +14,10 @@ public class DevController {
                 .body("devHome");
     }
 
-
+    @GetMapping("/conflictTest")
+    public HttpEntity<String> conflictTest() {
+        return ResponseEntity.ok().body("conflictTest");
+    }
 
 
 }
