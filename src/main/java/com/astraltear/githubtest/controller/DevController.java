@@ -33,4 +33,9 @@ public class DevController {
     public HttpEntity<String> addGitHub() {
         return ResponseEntity.ok().body("addGitHub");
     }
+
+    @GetMapping("/addGitHub2")
+    public HttpEntity<String> addGitHub2() {
+        return ResponseEntity.ok().body("addGitHub2");
+    }
 }
