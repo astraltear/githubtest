@@ -28,4 +28,9 @@ public class DevController {
     public HttpEntity<String> addBranch() {
         return ResponseEntity.ok().body("addBranch");
     }
+
+    @GetMapping("/addGitHub")
+    public HttpEntity<String> addGitHub() {
+        return ResponseEntity.ok().body("addGitHub");
+    }
 }
