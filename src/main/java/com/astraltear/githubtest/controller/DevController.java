@@ -19,5 +19,10 @@ public class DevController {
         return ResponseEntity.ok().body("conflictTest-EDIT_DEV");
     }
 
+    @GetMapping("/addMaster")
+    public HttpEntity<String> addMaster() {
+        return ResponseEntity.ok().body("addMaster");
+    }
+
 
 }
