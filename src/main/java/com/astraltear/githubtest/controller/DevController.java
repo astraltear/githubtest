@@ -19,5 +19,10 @@ public class DevController {
         return ResponseEntity.ok().body("conflictTest-EDIT_DEV");
     }
 
+    @GetMapping("/addBranch")
+    public HttpEntity<String> addBranch() {
+        return ResponseEntity.ok().body("addBranch");
+    }
+
 
 }
