@@ -24,5 +24,8 @@ public class DevController {
         return ResponseEntity.ok().body("addMaster");
     }
 
-
+    @GetMapping("/addBranch")
+    public HttpEntity<String> addBranch() {
+        return ResponseEntity.ok().body("addBranch");
+    }
 }
